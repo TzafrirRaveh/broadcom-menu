@@ -1,0 +1,36 @@
+.report-list {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  &__item {
+    border-bottom: .1rem solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem;
+    font-size: 1.3rem;
+    height: 5.3rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  &__name {
+    margin: 0;
+  }
+
+  &__location {
+    font-size: 1.1rem;
+    color: grey;
+  }
+
+  &__time {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+}

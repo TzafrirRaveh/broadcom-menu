@@ -1,0 +1,21 @@
+.reports{
+  &--close {
+    position: fixed;
+    left: -25rem;
+    top: 0;
+    transition: 1s ease-in-out;
+  }
+
+  &--open {
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: 1s ease-in-out;
+  }
+
+  &__close--btn {
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+  }
+}

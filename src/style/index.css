@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  background-color: transparent;
+}
+
+.revers-column {
+  flex-direction: column-reverse !important;
+}
+
+/*# sourceMappingURL=index.css.map */
